@@ -1,0 +1,33 @@
+# Dependency Directories
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+__pycache__/
+*.egg-info/
+*.pyc
+
+# Build / Distribution Artifacts
+dist/
+build/
+*.whl
+
+# IDE & Editor Specific
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# CI/CD & Environment
+.env
+*.log
+.cache/
+
+# EditorConfig
+.editorconfig
+
+# Tooling Outputs (Ruff, Vitest, etc.)
+.ruff_cache/
+coverage/
+.coverage
+.pytest_cache/
